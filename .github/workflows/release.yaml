@@ -1,0 +1,20 @@
+---
+name: release
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - "**/*.json"
+      - "**/*.json5"
+      - ".github/workflows/release.yaml"
+
+jobs:
+  release:
+    uses: devops-roast/github-actions/.github/workflows/release-please-standard.yaml@main
+    secrets: inherit
