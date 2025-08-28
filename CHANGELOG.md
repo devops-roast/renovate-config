@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/devops-roast/renovate-config/compare/v1.1.0...v1.2.0) (2025-08-28)
+
+
+### Features
+
+* **deps:** update pre-commit to 4.3.0 ([#6](https://github.com/devops-roast/renovate-config/issues/6)) ([9db6ac3](https://github.com/devops-roast/renovate-config/commit/9db6ac3b987438f3412741e0f68b3a1dd2b8443f))
+
+
+### Bug Fixes
+
+* do not pin digest by default ([9311454](https://github.com/devops-roast/renovate-config/commit/9311454013c786a26216586f51ad92da9bf20f30))
+
 ## [1.1.0](https://github.com/devops-roast/renovate-config/compare/v1.0.0...v1.1.0) (2025-08-28)
 
 
