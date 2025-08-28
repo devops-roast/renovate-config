@@ -20,5 +20,5 @@
   "suppressNotifications": ["prIgnoreNotification"],
   "commitBodyTable": true,
   "rebaseWhen": "conflicted",
-  "pinDigests": true
+  "pinDigests": false
 }
