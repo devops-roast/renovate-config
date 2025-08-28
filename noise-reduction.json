@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "prConcurrentLimit": 10,
+  "prHourlyLimit": 4,
+  "stabilityDays": 3,
+  "rollbackPrs": true,
+  "dependencyDashboardAutoclose": true,
+  "separateMajorMinor": true
+}
